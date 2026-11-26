@@ -1,0 +1,69 @@
+- chain: A
+  glycan_list:
+    A: [401]
+  grs: |
+    1 BGLCNA
+  patches: {}
+  residue_list: [401]
+  residues:
+    1: {ires: 1, linkage: NGLB, linkage_patch: NGLB, linked_chain: A, linked_ires: null, linked_resid: 148, resid: 401, resname: BGLCNA}
+  root: 401
+  segid: CARA
+  type: n-linked
+- chain: B
+  glycan_list:
+    B: [401]
+  grs: |
+    1 BGLCNA
+  patches: {}
+  residue_list: [401]
+  residues:
+    1: {ires: 1, linkage: NGLB, linkage_patch: NGLB, linked_chain: B, linked_ires: null, linked_resid: 148, resid: 401, resname: BGLCNA}
+  root: 401
+  segid: CARB
+  type: n-linked
+- chain: D
+  glycan_list:
+    D: [402]
+  grs: |
+    1 BGLCNA
+  patches: {}
+  residue_list: [402]
+  residues:
+    1: {ires: 1, linkage: NGLB, linkage_patch: NGLB, linked_chain: D, linked_ires: null, linked_resid: 148, resid: 402, resname: BGLCNA}
+  root: 402
+  segid: CARC
+  type: n-linked
+- chain: H
+  glycan_list:
+    H: [1, 2, 3]
+  grs: |
+    1 BGLCNA
+    2 - 14B: BGLCNA
+    3 - - 14B: BMAN
+  patches: {}
+  residue_list: [1, 2, 3]
+  residues:
+    1: {ires: 1, linkage: NGLB, linkage_patch: NGLB, linked_chain: C, linked_ires: null, linked_resid: 143, resid: 1, resname: BGLCNA}
+    2: {ires: 2, linkage: 14BB, linkage_patch: 14BB, linked_chain: H, linked_ires: 1, linked_resid: 1, resid: 2, resname: BGLCNA}
+    3: {ires: 3, linkage: 14BB, linkage_patch: 14BB, linked_chain: H, linked_ires: 2, linked_resid: 2, resid: 3, resname: BMAN}
+  root: 1
+  segid: CARD
+  type: n-linked
+- chain: I
+  glycan_list:
+    I: [1, 2, 3]
+  grs: |
+    1 BGLCNA
+    2 - 14B: BGLCNA
+    3 - - 14B: BMAN
+  patches: {}
+  residue_list: [1, 2, 3]
+  residues:
+    1: {ires: 1, linkage: NGLB, linkage_patch: NGLB, linked_chain: E, linked_ires: null, linked_resid: 143, resid: 1, resname: BGLCNA}
+    2: {ires: 2, linkage: 14BB, linkage_patch: 14BB, linked_chain: I, linked_ires: 1, linked_resid: 1, resid: 2, resname: BGLCNA}
+    3: {ires: 3, linkage: 14BB, linkage_patch: 14BB, linked_chain: I, linked_ires: 2, linked_resid: 2, resid: 3, resname: BMAN}
+  root: 1
+  segid: CARE
+  type: n-linked
+
